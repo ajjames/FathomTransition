@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4312FA9F1807CDFE00DCC18B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4312FA9E1807CDFE00DCC18B /* SecondViewController.m */; };
+		439A5EE4180720E6003C6586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A5EE3180720E6003C6586 /* Foundation.framework */; };
+		439A5EE6180720E6003C6586 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A5EE5180720E6003C6586 /* CoreGraphics.framework */; };
+		439A5EE8180720E6003C6586 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A5EE7180720E6003C6586 /* UIKit.framework */; };
+		439A5EEE180720E6003C6586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 439A5EEC180720E6003C6586 /* InfoPlist.strings */; };
+		439A5EF0180720E6003C6586 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5EEF180720E6003C6586 /* main.m */; };
+		439A5EF4180720E6003C6586 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5EF3180720E6003C6586 /* AppDelegate.m */; };
+		439A5EF7180720E6003C6586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439A5EF5180720E6003C6586 /* Main.storyboard */; };
+		439A5EFD180720E6003C6586 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5EFC180720E6003C6586 /* StartViewController.m */; };
+		439A5EFF180720E6003C6586 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439A5EFE180720E6003C6586 /* Images.xcassets */; };
+		439A5F06180720E6003C6586 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A5F05180720E6003C6586 /* XCTest.framework */; };
+		439A5F07180720E6003C6586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A5EE3180720E6003C6586 /* Foundation.framework */; };
+		439A5F08180720E6003C6586 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A5EE7180720E6003C6586 /* UIKit.framework */; };
+		439A5F10180720E6003C6586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 439A5F0E180720E6003C6586 /* InfoPlist.strings */; };
+		439A5F12180720E6003C6586 /* FathomTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F11180720E6003C6586 /* FathomTransitionTests.m */; };
+		439A5F22180721D7003C6586 /* AJFathomTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F1D180721D7003C6586 /* AJFathomTransitionController.m */; };
+		439A5F23180721D7003C6586 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F1F180721D7003C6586 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		439A5F2718073EA1003C6586 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F2618073EA1003C6586 /* FirstViewController.m */; };
+		439A5F2A18074908003C6586 /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F2918074908003C6586 /* LastViewController.m */; };
+		439A5F2E180782B1003C6586 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F2D180782B1003C6586 /* UIImage+ColorAtPixel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		439A5F09180720E6003C6586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 439A5ED8180720E5003C6586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 439A5EDF180720E6003C6586;
+			remoteInfo = FathomTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4312FA9D1807CDFE00DCC18B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4312FA9E1807CDFE00DCC18B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		439A5EE0180720E6003C6586 /* FathomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FathomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		439A5EE3180720E6003C6586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		439A5EE5180720E6003C6586 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		439A5EE7180720E6003C6586 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		439A5EEB180720E6003C6586 /* FathomTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FathomTransition-Info.plist"; sourceTree = "<group>"; };
+		439A5EED180720E6003C6586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		439A5EEF180720E6003C6586 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		439A5EF1180720E6003C6586 /* FathomTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FathomTransition-Prefix.pch"; sourceTree = "<group>"; };
+		439A5EF2180720E6003C6586 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		439A5EF3180720E6003C6586 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		439A5EF6180720E6003C6586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		439A5EFB180720E6003C6586 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		439A5EFC180720E6003C6586 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		439A5EFE180720E6003C6586 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		439A5F04180720E6003C6586 /* FathomTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FathomTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		439A5F05180720E6003C6586 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		439A5F0D180720E6003C6586 /* FathomTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FathomTransitionTests-Info.plist"; sourceTree = "<group>"; };
+		439A5F0F180720E6003C6586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		439A5F11180720E6003C6586 /* FathomTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FathomTransitionTests.m; sourceTree = "<group>"; };
+		439A5F1C180721D7003C6586 /* AJFathomTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJFathomTransitionController.h; sourceTree = "<group>"; };
+		439A5F1D180721D7003C6586 /* AJFathomTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJFathomTransitionController.m; sourceTree = "<group>"; };
+		439A5F1E180721D7003C6586 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		439A5F1F180721D7003C6586 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		439A5F2518073EA1003C6586 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		439A5F2618073EA1003C6586 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		439A5F2818074908003C6586 /* LastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastViewController.h; sourceTree = "<group>"; };
+		439A5F2918074908003C6586 /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewController.m; sourceTree = "<group>"; };
+		439A5F2C180782B1003C6586 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		439A5F2D180782B1003C6586 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		439A5EDD180720E6003C6586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439A5EE6180720E6003C6586 /* CoreGraphics.framework in Frameworks */,
+				439A5EE8180720E6003C6586 /* UIKit.framework in Frameworks */,
+				439A5EE4180720E6003C6586 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439A5F01180720E6003C6586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439A5F06180720E6003C6586 /* XCTest.framework in Frameworks */,
+				439A5F08180720E6003C6586 /* UIKit.framework in Frameworks */,
+				439A5F07180720E6003C6586 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439A5ED7180720E5003C6586 = {
+			isa = PBXGroup;
+			children = (
+				439A5EE9180720E6003C6586 /* FathomTransition */,
+				439A5F0B180720E6003C6586 /* FathomTransitionTests */,
+				439A5EE2180720E6003C6586 /* Frameworks */,
+				439A5EE1180720E6003C6586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		439A5EE1180720E6003C6586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439A5EE0180720E6003C6586 /* FathomTransition.app */,
+				439A5F04180720E6003C6586 /* FathomTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439A5EE2180720E6003C6586 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439A5EE3180720E6003C6586 /* Foundation.framework */,
+				439A5EE5180720E6003C6586 /* CoreGraphics.framework */,
+				439A5EE7180720E6003C6586 /* UIKit.framework */,
+				439A5F05180720E6003C6586 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		439A5EE9180720E6003C6586 /* FathomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				439A5F1C180721D7003C6586 /* AJFathomTransitionController.h */,
+				439A5F1D180721D7003C6586 /* AJFathomTransitionController.m */,
+				439A5F2B1807813A003C6586 /* RequiredExtensions */,
+				439A5F2F180799DB003C6586 /* App */,
+				439A5EEA180720E6003C6586 /* Supporting Files */,
+			);
+			path = FathomTransition;
+			sourceTree = "<group>";
+		};
+		439A5EEA180720E6003C6586 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439A5EEB180720E6003C6586 /* FathomTransition-Info.plist */,
+				439A5EEC180720E6003C6586 /* InfoPlist.strings */,
+				439A5EEF180720E6003C6586 /* main.m */,
+				439A5EF1180720E6003C6586 /* FathomTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		439A5F0B180720E6003C6586 /* FathomTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				439A5F11180720E6003C6586 /* FathomTransitionTests.m */,
+				439A5F0C180720E6003C6586 /* Supporting Files */,
+			);
+			path = FathomTransitionTests;
+			sourceTree = "<group>";
+		};
+		439A5F0C180720E6003C6586 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439A5F0D180720E6003C6586 /* FathomTransitionTests-Info.plist */,
+				439A5F0E180720E6003C6586 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		439A5F2B1807813A003C6586 /* RequiredExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				439A5F1E180721D7003C6586 /* UIImage+ImageEffects.h */,
+				439A5F1F180721D7003C6586 /* UIImage+ImageEffects.m */,
+				439A5F2C180782B1003C6586 /* UIImage+ColorAtPixel.h */,
+				439A5F2D180782B1003C6586 /* UIImage+ColorAtPixel.m */,
+			);
+			name = RequiredExtensions;
+			sourceTree = "<group>";
+		};
+		439A5F2F180799DB003C6586 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				439A5EF2180720E6003C6586 /* AppDelegate.h */,
+				439A5EF3180720E6003C6586 /* AppDelegate.m */,
+				439A5EF5180720E6003C6586 /* Main.storyboard */,
+				439A5EFB180720E6003C6586 /* StartViewController.h */,
+				439A5EFC180720E6003C6586 /* StartViewController.m */,
+				439A5F2518073EA1003C6586 /* FirstViewController.h */,
+				439A5F2618073EA1003C6586 /* FirstViewController.m */,
+				4312FA9D1807CDFE00DCC18B /* SecondViewController.h */,
+				4312FA9E1807CDFE00DCC18B /* SecondViewController.m */,
+				439A5F2818074908003C6586 /* LastViewController.h */,
+				439A5F2918074908003C6586 /* LastViewController.m */,
+				439A5EFE180720E6003C6586 /* Images.xcassets */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		439A5EDF180720E6003C6586 /* FathomTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439A5F15180720E6003C6586 /* Build configuration list for PBXNativeTarget "FathomTransition" */;
+			buildPhases = (
+				439A5EDC180720E6003C6586 /* Sources */,
+				439A5EDD180720E6003C6586 /* Frameworks */,
+				439A5EDE180720E6003C6586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FathomTransition;
+			productName = FathomTransition;
+			productReference = 439A5EE0180720E6003C6586 /* FathomTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		439A5F03180720E6003C6586 /* FathomTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439A5F18180720E6003C6586 /* Build configuration list for PBXNativeTarget "FathomTransitionTests" */;
+			buildPhases = (
+				439A5F00180720E6003C6586 /* Sources */,
+				439A5F01180720E6003C6586 /* Frameworks */,
+				439A5F02180720E6003C6586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				439A5F0A180720E6003C6586 /* PBXTargetDependency */,
+			);
+			name = FathomTransitionTests;
+			productName = FathomTransitionTests;
+			productReference = 439A5F04180720E6003C6586 /* FathomTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		439A5ED8180720E5003C6586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AJ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Andrew James";
+				TargetAttributes = {
+					439A5F03180720E6003C6586 = {
+						TestTargetID = 439A5EDF180720E6003C6586;
+					};
+				};
+			};
+			buildConfigurationList = 439A5EDB180720E5003C6586 /* Build configuration list for PBXProject "FathomTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 439A5ED7180720E5003C6586;
+			productRefGroup = 439A5EE1180720E6003C6586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				439A5EDF180720E6003C6586 /* FathomTransition */,
+				439A5F03180720E6003C6586 /* FathomTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439A5EDE180720E6003C6586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439A5EFF180720E6003C6586 /* Images.xcassets in Resources */,
+				439A5EF7180720E6003C6586 /* Main.storyboard in Resources */,
+				439A5EEE180720E6003C6586 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439A5F02180720E6003C6586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439A5F10180720E6003C6586 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		439A5EDC180720E6003C6586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4312FA9F1807CDFE00DCC18B /* SecondViewController.m in Sources */,
+				439A5EF0180720E6003C6586 /* main.m in Sources */,
+				439A5F23180721D7003C6586 /* UIImage+ImageEffects.m in Sources */,
+				439A5F2A18074908003C6586 /* LastViewController.m in Sources */,
+				439A5F22180721D7003C6586 /* AJFathomTransitionController.m in Sources */,
+				439A5F2E180782B1003C6586 /* UIImage+ColorAtPixel.m in Sources */,
+				439A5EFD180720E6003C6586 /* StartViewController.m in Sources */,
+				439A5EF4180720E6003C6586 /* AppDelegate.m in Sources */,
+				439A5F2718073EA1003C6586 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439A5F00180720E6003C6586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439A5F12180720E6003C6586 /* FathomTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		439A5F0A180720E6003C6586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 439A5EDF180720E6003C6586 /* FathomTransition */;
+			targetProxy = 439A5F09180720E6003C6586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		439A5EEC180720E6003C6586 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439A5EED180720E6003C6586 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		439A5EF5180720E6003C6586 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439A5EF6180720E6003C6586 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		439A5F0E180720E6003C6586 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439A5F0F180720E6003C6586 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		439A5F13180720E6003C6586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		439A5F14180720E6003C6586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		439A5F16180720E6003C6586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FathomTransition/FathomTransition-Prefix.pch";
+				INFOPLIST_FILE = "FathomTransition/FathomTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		439A5F17180720E6003C6586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FathomTransition/FathomTransition-Prefix.pch";
+				INFOPLIST_FILE = "FathomTransition/FathomTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		439A5F19180720E6003C6586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FathomTransition.app/FathomTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FathomTransition/FathomTransition-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FathomTransitionTests/FathomTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		439A5F1A180720E6003C6586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FathomTransition.app/FathomTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FathomTransition/FathomTransition-Prefix.pch";
+				INFOPLIST_FILE = "FathomTransitionTests/FathomTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		439A5EDB180720E5003C6586 /* Build configuration list for PBXProject "FathomTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439A5F13180720E6003C6586 /* Debug */,
+				439A5F14180720E6003C6586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439A5F15180720E6003C6586 /* Build configuration list for PBXNativeTarget "FathomTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439A5F16180720E6003C6586 /* Debug */,
+				439A5F17180720E6003C6586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439A5F18180720E6003C6586 /* Build configuration list for PBXNativeTarget "FathomTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439A5F19180720E6003C6586 /* Debug */,
+				439A5F1A180720E6003C6586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 439A5ED8180720E5003C6586 /* Project object */;
+}
