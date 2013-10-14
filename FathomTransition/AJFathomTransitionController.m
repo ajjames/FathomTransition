@@ -48,7 +48,7 @@
         self.initialSpringVelocity = .5;
         self.backdropColor = nil;
         self.saturationDeltaFactor = .8;
-        self.tintColor = [UIColor colorWithWhite:1 alpha:0.7];
+        self.tintColor = [UIColor colorWithWhite:1 alpha:0.8];
         self.maskImage = nil;
         self.animationInOptions = UIViewAnimationOptionCurveEaseOut;
         self.animationOutOptions = UIViewAnimationOptionCurveEaseIn;

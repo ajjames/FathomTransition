@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4312FA9F1807CDFE00DCC18B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4312FA9E1807CDFE00DCC18B /* SecondViewController.m */; };
 		439A5EE4180720E6003C6586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A5EE3180720E6003C6586 /* Foundation.framework */; };
 		439A5EE6180720E6003C6586 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A5EE5180720E6003C6586 /* CoreGraphics.framework */; };
 		439A5EE8180720E6003C6586 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439A5EE7180720E6003C6586 /* UIKit.framework */; };
@@ -25,7 +24,6 @@
 		439A5F22180721D7003C6586 /* AJFathomTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F1D180721D7003C6586 /* AJFathomTransitionController.m */; };
 		439A5F23180721D7003C6586 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F1F180721D7003C6586 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		439A5F2718073EA1003C6586 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F2618073EA1003C6586 /* FirstViewController.m */; };
-		439A5F2A18074908003C6586 /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F2918074908003C6586 /* LastViewController.m */; };
 		439A5F2E180782B1003C6586 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A5F2D180782B1003C6586 /* UIImage+ColorAtPixel.m */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4312FA9D1807CDFE00DCC18B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		4312FA9E1807CDFE00DCC18B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		439A5EE0180720E6003C6586 /* FathomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FathomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		439A5EE3180720E6003C6586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		439A5EE5180720E6003C6586 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,8 +63,6 @@
 		439A5F1F180721D7003C6586 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		439A5F2518073EA1003C6586 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		439A5F2618073EA1003C6586 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		439A5F2818074908003C6586 /* LastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastViewController.h; sourceTree = "<group>"; };
-		439A5F2918074908003C6586 /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewController.m; sourceTree = "<group>"; };
 		439A5F2C180782B1003C6586 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
 		439A5F2D180782B1003C6586 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,10 +183,6 @@
 				439A5EFC180720E6003C6586 /* StartViewController.m */,
 				439A5F2518073EA1003C6586 /* FirstViewController.h */,
 				439A5F2618073EA1003C6586 /* FirstViewController.m */,
-				4312FA9D1807CDFE00DCC18B /* SecondViewController.h */,
-				4312FA9E1807CDFE00DCC18B /* SecondViewController.m */,
-				439A5F2818074908003C6586 /* LastViewController.h */,
-				439A5F2918074908003C6586 /* LastViewController.m */,
 				439A5EFE180720E6003C6586 /* Images.xcassets */,
 			);
 			name = App;
@@ -296,10 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4312FA9F1807CDFE00DCC18B /* SecondViewController.m in Sources */,
 				439A5EF0180720E6003C6586 /* main.m in Sources */,
 				439A5F23180721D7003C6586 /* UIImage+ImageEffects.m in Sources */,
-				439A5F2A18074908003C6586 /* LastViewController.m in Sources */,
 				439A5F22180721D7003C6586 /* AJFathomTransitionController.m in Sources */,
 				439A5F2E180782B1003C6586 /* UIImage+ColorAtPixel.m in Sources */,
 				439A5EFD180720E6003C6586 /* StartViewController.m in Sources */,
@@ -436,8 +424,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FathomTransition/FathomTransition-Prefix.pch";
 				INFOPLIST_FILE = "FathomTransition/FathomTransition-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -450,8 +439,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FathomTransition/FathomTransition-Prefix.pch";
 				INFOPLIST_FILE = "FathomTransition/FathomTransition-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

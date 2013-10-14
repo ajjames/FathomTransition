@@ -39,7 +39,7 @@
     self.transitionController.saturationDeltaFactor = .8;
     self.transitionController.tintColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.8];
     destinationController.transitioningDelegate = self.transitionController;
-    [self presentViewController:destinationController animated:YES completion:nil];
+    [self.navigationController presentViewController:destinationController animated:YES completion:nil];
 }
 
 - (IBAction)didTouchGreenButton:(id)sender
@@ -67,7 +67,7 @@
     self.transitionController.dismissDuration = 1;
     destinationController.modalPresentationStyle = UIModalPresentationCustom;
     destinationController.transitioningDelegate = self.transitionController;
-    [self presentViewController:destinationController animated:YES completion:nil];
+    [self.navigationController presentViewController:destinationController animated:YES completion:nil];
 }
 
 - (IBAction)didTouchRedButton:(id)sender
@@ -86,7 +86,7 @@
     self.transitionController.animationInOptions = UIViewAnimationOptionCurveLinear;
     self.transitionController.animationOutOptions = UIViewAnimationOptionCurveLinear;
     destinationController.transitioningDelegate = self.transitionController;
-    [self presentViewController:destinationController animated:YES completion:nil];
+    [self.navigationController presentViewController:destinationController animated:YES completion:nil];
 }
 
 - (IBAction)didTouchVignetteButton:(id)sender
@@ -107,7 +107,7 @@
     self.transitionController.animationInOptions = UIViewAnimationOptionCurveLinear;
     self.transitionController.animationOutOptions = UIViewAnimationOptionCurveLinear;
     destinationController.transitioningDelegate = self.transitionController;
-    [self presentViewController:destinationController animated:YES completion:nil];
+    [self.navigationController presentViewController:destinationController animated:YES completion:nil];
 }
 
 #pragma mark - UIViewControllerTransitioningDelegate

@@ -18,6 +18,7 @@
 // Sets the number of seconds to animate the 'dismissal'
 @property (nonatomic)CGFloat dismissDuration;
 
+// Used to determine whether to show the presentation animation or the dismissal animation.
 @property (nonatomic)BOOL isPresented;
 
 // The frame in the 'presenting' view that the 'presented' view will zoom out of
